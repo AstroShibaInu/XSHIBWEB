@@ -1,0 +1,36 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+ACCOUNTS=["GDOYQ66ABF55TTNOUUQLF33NV445US4RHHRXQUY6XTOUPPZRPOPXS777"]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="Astro Shiba Inu"
+ORG_URL="https://www.astro-shiba.com"
+ORG_TWITTER="astroshibainu"
+
+[[PRINCIPALS]]
+name="Astro Shiba Boy"
+email="astroshibatoken@protonmail.com"
+
+[[CURRENCIES]]
+code="ASHIB"
+issuer="GD53LHKFAKRWD5JKJJLPSYU6ARIHQYEOSH4UHHGONGDIBIY6QEFJTZWO"
+display_decimals=7
+name="Astro Shiba Inu Classic"
+desc="Astro Shiba Inu Classic token on Stellar Network"
+conditions="Astro Shiba Inu Classic (ASHIB Classic) is a token for fun. There are a total of 20,000,000,000 ASHIB, Join the revolution and kill the 0!"
+image="https://www.astro-shiba.com/.well-known/astroshibaclassiclogo.png"
+fixed_number=20000000000
+is_asset_anchored=false
+status="live"
+
+[[CURRENCIES]]
+code="ASHIB"
+issuer="GDOYQ66ABF55TTNOUUQLF33NV445US4RHHRXQUY6XTOUPPZRPOPXS777"
+display_decimals=7
+name="Astro Shiba Inu"
+desc="Astro Shiba Inu token on Stellar Network"
+conditions="Astro Shiba Inu (ASHIB) is a token for fun. There are a total of 1,000,000,000,000 ASHIB, Join the revolution and kill the 0!"
+image="https://www.astro-shiba.com/.well-known/astroshibalogo.png"
+fixed_number=1000000000000
+is_asset_anchored=false
+status="live"
