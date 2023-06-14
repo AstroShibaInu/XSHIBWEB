@@ -129,7 +129,7 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date ().getFullYear()} Astro Shiba! Funny Meme, Big Dreams.
+          &copy; {new Date ().getFullYear()} Astro Shiba! Funny Meme, Big Dreams. Enjoy Crypto!
         </span>
         <span>
           Made with &#10084; by <a href='https://nunaproject.art/' target='_blank' rel='noopener noreferrer'>NUNA</a>
