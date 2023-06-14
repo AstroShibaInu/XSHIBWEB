@@ -26,7 +26,7 @@
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build && echo www.astro-shiba.com > ./build/CNAME",
+    "predeploy": "npm run build && echo www.astro-shiba.com > ./build/CNAME"  ,
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
