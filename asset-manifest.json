@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b8ac622.css",
-    "main.js": "/static/js/main.78fce61a.js",
+    "main.js": "/static/js/main.54607b7b.js",
     "static/media/NFTGIF.mp4": "/static/media/NFTGIF.592a8aa55f4be5fd61d2.mp4",
     "static/media/astro (2).png": "/static/media/astro (2).1fa666af13117f38f4a0.png",
     "static/media/astro (3).png": "/static/media/astro (3).ddd70bf7b8777b1c5cc4.png",
@@ -46,10 +46,10 @@
     "static/media/sora-latin-ext-400-normal.woff2": "/static/media/sora-latin-ext-400-normal.256bd69d954f04ef5548.woff2",
     "index.html": "/index.html",
     "main.9b8ac622.css.map": "/static/css/main.9b8ac622.css.map",
-    "main.78fce61a.js.map": "/static/js/main.78fce61a.js.map"
+    "main.54607b7b.js.map": "/static/js/main.54607b7b.js.map"
   },
   "entrypoints": [
     "static/css/main.9b8ac622.css",
-    "static/js/main.78fce61a.js"
+    "static/js/main.54607b7b.js"
   ]
 }
