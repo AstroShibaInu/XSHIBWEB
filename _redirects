@@ -1,1 +1,1 @@
-/.well_known/*  /well_known/stellar.toml 
+/.well_known/*  /well_known/:splat 200 
