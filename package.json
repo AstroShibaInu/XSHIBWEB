@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
     "gh-pages": "^5.0.0",
     "gsap": "^3.9.1",
     "normalize.css": "^8.0.1",
@@ -26,7 +27,7 @@
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build && echo www.astro-shiba.com > ./build/CNAME"  ,
+    "predeploy": "npm run build && echo www.astro-shiba.com > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
