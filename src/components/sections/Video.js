@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import TypeWriterText2 from '../TypeWriterText2'
 import Video from '../CoverVideo'
-import RoundTextBlack from '../../assets/RoundedTextBlack.png'
+
 
 
 
@@ -54,60 +54,9 @@ transform: rotate(1turn);
 }
 `
 
-const Round = styled.div`
-position: absolute;
-bottom: 2rem;
-right: 90%;
-width: 6rem;
-height: 6rem;
-border: 1px solid ${props => props.theme.text};
-border-radius: 50%;
-
-img {
-  width: 100%;
-  height: auto;
-  animation: ${rotate} 6s linear infinite reverse;
-}
-@media (max-width: 64em){
-  width: 4rem;
-  height: 4rem;
-  left: none;
-  right: 2rem;
-  bottom:100%;
-}
-@media (max-width: 48em){
-  
-  right: 1rem;
-  
-}
-
-`
 
 
-const Circle = styled.span`
-width: 3rem;
-height: 3rem;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 50%;
 
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-
-background-color: ${props => props.theme.text};
-color: ${props => props.theme.body};
-font-size: ${props => props.theme.fontx1};
-
-@media (max-width: 64em){
-  width: 2rem;
-  height: 2rem;
-  font-size: ${props => props.theme.fontg};
-  
-}
-`
 
 
 

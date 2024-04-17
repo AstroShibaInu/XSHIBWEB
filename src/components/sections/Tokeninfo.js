@@ -158,23 +158,6 @@ const SubTitle2 = styled.h3`
   }
 }`;
 
-const ButtonContainer = styled.div`
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
-
-  @media (max-width: 30em) {
-    font-size: ${props => props.theme.fontxs};
-    width: 100%;
-
-    button {
-      margin: 0 auto;
-      overflow-x: hidden;
-    }
-  }
-`;
 
 function Tokeninfo() {
   const [xshibBalance, setXshibBalance] = useState(null);
@@ -211,6 +194,7 @@ function Tokeninfo() {
           <Infotoken>
             <iframe
               src="https://stellar.expert/widget/public/asset/summary/XSHIB-GCN23IFNJOXUVS6WHGTSBALWXPMH7GSP5VEXA7V4PTPBR2ZFGTAYGDOG"
+              title="Descripción única del iframe"
               width='100%'
               height='600px'
               onLoad={handleIframeLoad}
