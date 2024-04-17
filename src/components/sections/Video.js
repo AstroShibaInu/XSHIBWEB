@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components';
 
 import TypeWriterText2 from '../TypeWriterText2'
 import Video from '../CoverVideo'
