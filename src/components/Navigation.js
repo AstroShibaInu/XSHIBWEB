@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components' 
-import Logo from './Logo'
+
 import Button from './Button';
 
 const Section = styled.section`
@@ -156,7 +156,7 @@ const Navigation = () => {
   return (
     <Section id='navigation'>
       <NavBar>
-        <Logo />
+     
         <HamburguerMenu click={click} onClick={() => setClick(!click)}>
           &nbsp; 
         </HamburguerMenu>

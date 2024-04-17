@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Banner from './Banner'
-import Logo from './Logo'
+
 import Twitter from '../../src/Icons/Twitter'
 
 
@@ -108,7 +108,7 @@ const Footer = () => {
       <Banner />
       <Container>
       <Left>
-        <Logo />
+        
         <IconList>
           <a href='https://twitter.com/astroshibainu' target='_blank' rel='noopener noreferrer'>
             <Twitter />

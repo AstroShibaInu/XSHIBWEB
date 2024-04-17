@@ -15,13 +15,47 @@ span{
     font-family: 'Akaya Televigala', cursive;
 }
 .text-1{
-    color: #00A5CF;
+    color: #28a44b;
 }
 .text-2{
-    color: #7AE582;
+    color: #006af5;
 }
 .text-3{
-    color: #25A18E;
+    color: #f68131;
+}
+
+@media (max-width: 70em){
+  font-size: ${props => props.theme.fontxl};
+}
+@media (max-width: 48em){
+  align-self: center;
+  text-align: center;
+}
+@media (max-width: 40em){
+  width: 90%;
+}
+
+`
+
+const Title2 =  styled.h2`
+font-size: ${props => props.theme.fontxl};
+text-transform: capitalize;
+width: 80%;
+color: ${props => props.theme.text};
+align-self: flex-start;
+
+span{
+    text-transform: uppercase;
+    font-family: 'Akaya Televigala', cursive;
+}
+.text-1{
+    color: #28a44b;
+}
+.text-2{
+    color: #006af5;
+}
+.text-3{
+    color: #f68131;
 }
 
 @media (max-width: 70em){
@@ -76,6 +110,9 @@ const TypeWriterText = () => {
     <>
     <Title>
         Astro Shiba
+
+    </Title>
+    <Title2>
         <Typewriter
         options={{
             autoStart: true,
@@ -96,7 +133,7 @@ const TypeWriterText = () => {
 
   }}
 />
-    </Title>
+    </Title2>
     <SubTitle>The revolution on Stellar</SubTitle>
     <ButtonContainer>
     <a href='https:\\sites.google.com/view/list-lp-rewards-xshib/inicio' rel='noreferrer' target='_blank'>

@@ -30,23 +30,24 @@ width: fit-content;
 `
 
 const Container = styled.div`
-width: 70%;
-height: 200vh;
-background-color: ${(props) => props.theme.body};
-margin: 0 auto;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-
-@media (max-width: 64em){
-  width: 80%;
-}
-@media (max-width: 48em){
-  width: 90%;
-}
-
-`
+  width: 70%;
+  min-height: 200vh;
+  background-color: ${(props) => props.theme.body};
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem; /* Añadido un pequeño relleno */
+  
+  @media (max-width: 64em) {
+    width: 80%;
+  }
+  
+  @media (max-width: 48em) {
+    width: 90%;
+  }
+`;
 
 const SvgContainer = styled.div`
 display: flex;

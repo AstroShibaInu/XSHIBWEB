@@ -41,15 +41,19 @@ position: relative;
 `
 
 
-const Button = ({text, link}) => {
-  return (
-    <Btn>
-<a href={link} aria-label={text} target='_blank' rel='noreferrer' > 
-{text}
 
-</a>
+
+
+const Button = ({ text, link }) => {
+  const handleClick = () => {
+    window.open(link, '_blank');
+  };
+
+  return (
+    <Btn onClick={handleClick}>
+      {text}
     </Btn>
-  )
+  );
 }
 
 export default Button

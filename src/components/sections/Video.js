@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import TypeWriterText from '../TypeWriterText'
-import Imagen from '../Imagen'
+import TypeWriterText2 from '../TypeWriterText2'
+import Video from '../CoverVideo'
 import RoundTextBlack from '../../assets/RoundedTextBlack.png'
 
 
@@ -115,19 +115,14 @@ const Home = () => {
   return (
     <Section id='home'>
       <Container>
-        <Box> <TypeWriterText /> </Box>
-        <Box> <Imagen /> </Box>
+        
+      <Box> <Video /> </Box>
+      <Box> <TypeWriterText2 /> </Box>
+        
         
         
 
-        <Round>
-          <Circle>
-            &#x2193;
-          </Circle>
-          <img src={RoundTextBlack} alt='NFT' />      
-            
-        </Round>
-
+        
       </Container>
     </Section>
   )

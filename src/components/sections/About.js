@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import Carousel from '../Carousel'
+import ImagenAbout from '../ImagenAbout'
 import Button from '../Button'
 import {dark} from '../../styles/Themes'
 
@@ -157,7 +157,7 @@ const About = () => {
   return (
     <Section id='about'>
       <Container>
-        <Box> <Carousel /> </Box>
+      
         <Box>
           <Title>
           💚Liquidity Meme Token! #XSHIB💚
@@ -177,6 +177,7 @@ const About = () => {
           </ButtonContainer>
           
         </Box>
+        <Box> <ImagenAbout /> </Box>
       </Container>
     </Section>
   )
