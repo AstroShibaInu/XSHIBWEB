@@ -23,7 +23,7 @@ const Imagen = styled.div`
 function CoverVideo() {
   return (
     <Imagen>
-        <img src={IMG} type='img' />
+        <img src={IMG} type='img' alt='Astro Shiba NFT Collection' />
     </Imagen>
   )
 }
