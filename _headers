@@ -1,0 +1,3 @@
+/.well-known/stellar.toml
+  Access-Control-Allow-Origin: *
+  content-type: text/plain
