@@ -1,3 +1,8 @@
+# Enable CORS for stellar.toml
 /.well-known/stellar.toml
   Access-Control-Allow-Origin: *
-  content-type: text/plain
+
+# Set content type to text/plain for stellar.toml
+/.well-known/stellar.toml
+  Content-Type: text/plain
+
